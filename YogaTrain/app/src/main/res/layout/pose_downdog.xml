@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/blue"
+    android:id="@+id/Pdesc"
+    tools:context=".Fragments.PoseFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="407dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:src="@drawable/doggo">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="157dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/photo"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="50dp"
+            android:layout_toStartOf="@+id/textView3"
+            android:text="BENEFITS"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="41dp"
+            android:text="INSTRUCTIONS"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="407dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginBottom="-2dp"
+            android:src="@drawable/line"></ImageView>
+
+        <LinearLayout
+            android:layout_width="17dp"
+            android:layout_height="19dp"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="368dp"
+            android:layout_marginBottom="-37dp"
+            android:background="@drawable/check"
+            android:orientation="vertical"
+            android:padding="15dp"></LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="-38dp"
+            android:text="@string/downdog"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="224dp"
+            android:layout_marginBottom="-42dp"
+            android:textColor="@color/white"
+            android:text="THE BENEFITS AND GOAL" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="368dp"
+            android:layout_marginBottom="-36dp"
+            android:src="@drawable/check" />
+
+        <TextView
+            android:id="@+id/prop2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="105dp"
+            android:layout_marginBottom="-35dp"
+            android:text="@string/downdog1"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/prop2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="367dp"
+            android:layout_marginBottom="-35dp"
+            android:src="@drawable/check" />
+
+        <TextView
+            android:id="@+id/prop3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/prop2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="-31dp"
+            android:text="@string/downdog2"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/prop4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/prop3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="285dp"
+            android:layout_marginBottom="-35dp"
+            android:text="@string/prop4"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btnBegin"
+            android:layout_width="363dp"
+            android:layout_height="62dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:backgroundTint="@color/pink2"
+            android:text="BEGIN"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textinstr1"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/prop4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="-47dp"
+            android:text="1. Starting on the belly, place the hands under the shoulders. Press the tops of the feet into the ground.
+
+"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textinstr2"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/prop4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="-95dp"
+            android:text="2. Lift the chest, belly and thighs off the floor, grounding firmly into the hands and feet."
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textinstr3"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textinstr2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="-47dp"
+            android:text="3. Roll the shoulders away from the ears, rotate
+the triceps into the ribs, and retract the shoulder blades."
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+</ScrollView>

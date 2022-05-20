@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:padding="20dp"
+    tools:context=".Fragments.ProfileFragment">
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/nameTv"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:layout_below="@id/nameTv"
+        android:textColor="@color/white"
+        android:id="@+id/mailTv"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <ImageView
+        android:src="@drawable/logopro"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/mailTv"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </ImageView>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:text="About Us"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="Yoga for testing your pose"
+            android:layout_below="@id/nameTv"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/logoutBtn"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/btnshapee"
+        android:layout_alignParentBottom="true"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</RelativeLayout>

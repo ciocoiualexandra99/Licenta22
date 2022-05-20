@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:background="#ffbbbb"
+    tools:context=".ExerActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/topRl"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/hometopshape">
+
+
+
+
+
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/flower">
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/libIv"
+                android:layout_marginRight="15dp"
+                android:layout_below="@id/nameTv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/libimage">
+
+            </ImageView>
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/nameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="@color/bluelight"
+                android:textSize="26sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_below="@id/topRl"
+            android:id="@+id/descTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="@color/bluelight"
+            android:textSize="18sp"
+            >
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Fragments.PoseFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue">
+
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/poseimggg">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/iv"
+            android:background="@drawable/poseshape"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fcv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/ftvcv1"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:text="Learn about this pose"
+                            android:textColor="@color/blue"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/cv1Iv"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/ftvcv1"
+                            android:src="@drawable/warrior2">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/stvcv1"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cv1Iv"
+                            android:text="Warrior ll"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/ttvcv1"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/stvcv1"
+                            android:text="10 sec"
+                            android:textColor="@color/blue"
+                            android:textSize="10sp">
+
+                        </TextView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/scv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/ftvcv2"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:text="Learn about this pose"
+                            android:textColor="@color/blue"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/cv2Iv"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/ftvcv2"
+                            android:src="@drawable/warrior1">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/stvcv2"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cv2Iv"
+                            android:text="Warrior I"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/ttvcv2"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/stvcv2"
+                            android:text="10 sec"
+                            android:textColor="@color/blue"
+                            android:textSize="10sp">
+
+                        </TextView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tcv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/ftvcv3"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:text="Learn about this pose"
+                            android:textColor="@color/blue"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/cv3Iv"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/ftvcv3"
+                            android:src="@drawable/yoga">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/stvcv3"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cv3Iv"
+                            android:text="Up Dog"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/ttvcv3"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/stvcv3"
+                            android:text="10 sec"
+                            android:textColor="@color/blue"
+                            android:textSize="10sp">
+
+                        </TextView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fourthcv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/ftvcv4"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:text="Learn about this pose"
+                            android:textColor="@color/blue"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/cv4Iv"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/ftvcv4"
+                            android:src="@drawable/dog">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/stvcv4"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cv4Iv"
+                            android:text="Down Dog"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/ttvcv4"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/stvcv4"
+                            android:text="10 sec"
+                            android:textColor="@color/blue"
+                            android:textSize="10sp">
+
+                        </TextView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

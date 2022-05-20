@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Yoga Train</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prop1">Strengthens the thighs, butt, abdomen and ankles.</string>
+    <string name="prop2">Opens the hips, chest and shoulders.</string>
+    <string name="prop3">Helps relieve back pain and cultivate focus.</string>
+    <string name="prop4">INSTRUCTIONS</string>
+    <string name="updoggo1">Stretches the hamstrings, calves, shoulders, and spine.</string>
+    <string name="updoggo2">Strengthens the arms, core and legs.</string>
+    <string name="updoggo3">Can relieve headaches, back pain, and improve digestion.</string>
+    <string name="downdog">Stretches the chest, spine, and hip flexors.</string>
+    <string name="downdog1">Strengthens the wrists, arms, and quads.</string>
+    <string name="downdog2">Helps improve posture, digestion and relieve back pain.</string>
+</resources>

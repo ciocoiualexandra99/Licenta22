@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/mainIv"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/nameTv"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/mainIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:textSize="14sp"
+                android:id="@+id/descTv"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/pink2"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/nameTv"
+                android:layout_toRightOf="@id/mainIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

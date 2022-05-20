@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbbbb"
+    tools:context=".Fragments.LibraryFragment">
+
+    <RelativeLayout
+        android:id="@+id/topRl"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/hometopshape">
+
+
+        <TextView
+            android:id="@+id/labelTv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Yoga Basics for Beginners"
+            android:textColor="@color/bluelight"
+            android:textSize="26sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/flower">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/libIv"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="-120dp"
+        android:layout_below="@id/topRl"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libimage">
+
+    </ImageView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/libIv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</RelativeLayout>
