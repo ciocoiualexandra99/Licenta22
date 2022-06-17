@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="365dp"
+        android:layout_height="51dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="61dp"
-        android:layout_marginBottom="637dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="670dp"
         android:text="Time to set up your device!"
         android:textColor="@color/white"
         android:textSize="25sp" />
@@ -24,8 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="441dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="474dp"
         android:src="@drawable/chen" />
 
     <ImageView
@@ -34,8 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="68dp"
-        android:layout_marginBottom="254dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="281dp"
         android:src="@drawable/chen" />
 
     <ImageView
@@ -44,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="65dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="93dp"
         android:src="@drawable/chen" />
 
     <TextView
@@ -60,35 +60,35 @@
         android:textSize="22sp" />
 
     <TextView
-        android:layout_width="207dp"
-        android:layout_height="78dp"
+        android:layout_width="224dp"
+        android:layout_height="93dp"
         android:layout_above="@+id/frame3"
         android:layout_alignEnd="@+id/frame2"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="49dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="35dp"
         android:text="Place yout phone against a wall or stable object."
         android:textColor="@color/white"
         android:textSize="22sp" />
 
     <TextView
-        android:layout_width="207dp"
-        android:layout_height="78dp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/frame3"
         android:layout_alignEnd="@+id/frame2"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="-142dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="-153dp"
         android:text="Step back with your mat sideways and your entire body in frame."
         android:textColor="@color/white"
         android:textSize="22sp" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/btnGotIT"
-        android:layout_width="363dp"
+        android:layout_width="225dp"
         android:layout_height="62dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@color/pink2"
         android:text="GOT IT"
         android:textAlignment="center"

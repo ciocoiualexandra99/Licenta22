@@ -36,12 +36,12 @@
 
 
             <ImageView
-                android:layout_centerHorizontal="true"
                 android:id="@+id/libIv"
-                android:layout_marginRight="15dp"
-                android:layout_below="@id/nameTv"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_below="@id/nameTv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="15dp"
                 android:src="@drawable/libimage">
 
             </ImageView>

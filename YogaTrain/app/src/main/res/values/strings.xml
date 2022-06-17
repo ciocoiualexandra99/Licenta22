@@ -12,4 +12,7 @@
     <string name="downdog">Stretches the chest, spine, and hip flexors.</string>
     <string name="downdog1">Strengthens the wrists, arms, and quads.</string>
     <string name="downdog2">Helps improve posture, digestion and relieve back pain.</string>
+    <string name="unknown">Unknown</string>
+    <string name="settings">Settings</string>
+    <string name="not_confident_message">Please position yourself within the frame and keep the phone 3–6ft away with good lighting conditions.</string>
 </resources>

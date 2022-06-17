@@ -11,5 +11,6 @@
     <color name="bluelight">#0C2143</color>
     <color name="pink">#F26A99 </color>
     <color name="pink2">#FF7575 </color>
+    <color name="dark_black">#212121</color>
 
 </resources>

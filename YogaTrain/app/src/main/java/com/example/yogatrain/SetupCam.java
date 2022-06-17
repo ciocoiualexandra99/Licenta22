@@ -11,4 +11,5 @@ public class SetupCam extends AppCompatActivity {
         setContentView(R.layout.setupcam);
         //  getSupportActionBar().hide();
 
+
     }}
